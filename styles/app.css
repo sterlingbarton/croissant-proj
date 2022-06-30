@@ -18,3 +18,22 @@ body {
   display: block;
   margin: 30px auto;
 }
+
+@media (min-width: 300px) {
+  h1 {
+    font-size: 46px;
+  }
+  p {
+    font-size: 26px;
+  }
+  .main-content {
+    margin: 10px auto;
+    padding: 0 20px;
+  }
+  .footer a {
+    font-size: 18px;
+  }
+  .photo-header {
+    font-size: 40px;
+  }
+}
